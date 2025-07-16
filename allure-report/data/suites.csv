@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4079","Login Test","chromium","Wed Jul 16 12:55:43 AZT 2025","passed","Wed Jul 16 12:55:47 AZT 2025","","loginTest.spec.js","",""
+"","3971","Login Test","webkit","Wed Jul 16 12:55:43 AZT 2025","passed","Wed Jul 16 12:55:47 AZT 2025","","loginTest.spec.js","",""
+"","3561","Login Test","firefox","Wed Jul 16 12:55:43 AZT 2025","passed","Wed Jul 16 12:55:47 AZT 2025","","loginTest.spec.js","",""
