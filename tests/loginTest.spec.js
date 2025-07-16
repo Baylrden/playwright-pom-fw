@@ -17,7 +17,7 @@ test('Login Test', async ({page}) => {
   // Log in with valid credentials
   await login.login(testData.username, testData.password);
   
-  // Verify successful login by checking the URL or a specific element on the page
+  // Verify successful login by checking the URL or text on the inventory page
   await expect(page).toHaveURL(`${testData.baseURL}inventory.html`);
   await expect(inventory.firstProduct).toHaveText('Sauce Labs Backpack');
 
