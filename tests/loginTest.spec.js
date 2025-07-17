@@ -21,10 +21,8 @@ test('Login Test', async ({page}) => {
   await expect(page).toHaveURL(`${testData.baseURL}inventory.html`);
   await expect(inventory.firstProduct).toHaveText('Sauce Labs Backpack');
 
-    // Click the hamburger menu button
-    await inventory.clickHamburgerBtn();
-    // Click the logout button
-    await inventory.clickLogout();
+    // Logout from the application
+    await inventory.logout();
 
     // Verify that the user is logged out by checking the URL or a specific element on the login page
     await expect(login.loginButton).toBeVisible();

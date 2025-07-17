@@ -14,6 +14,11 @@ class InventoryPage {
     await this.logoutBtn.click();
   }
 
+  async logout() {
+    await this.clickHamburgerBtn();
+    await this.clickLogout();
+  }
+
 }
 
 module.exports = InventoryPage;
